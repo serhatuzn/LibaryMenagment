@@ -1,0 +1,42 @@
+@model MvcProject.Models.Author
+
+@{
+    ViewData["Title"] = "Yazar Detayı - " + Model.FirstName + " " + Model.LastName;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> <!-- Google Font -->
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>@Model.FirstName @Model.LastName</h1>
+            <p class="lead">Yazarın detaylı bilgileri aşağıda yer almaktadır. Bu büyük yazar hakkında daha fazla bilgi edinmek için okumaya devam edin.</p>
+        </div>
+
+        <!-- Author Details Section -->
+        <div class="author-details">
+            <div class="left">
+                <h3>Yazar Hakkında</h3>
+                <p><strong>Adı:</strong> @Model.FirstName</p>
+                <p><strong>Soyadı:</strong> @Model.LastName</p>
+                <p><strong>Doğum Tarihi:</strong> @Model.DateOfBirth.ToString("dd/MM/yyyy")</p>
+            </div>
+        </div>
+
+        <!-- Return Button -->
+        <div class="back-btn">
+            <a href="@Url.Action("Index", "Author")" class="btn">Yazar Listesine Dön</a>
+        </div>
+    </div>
+
+</body>
+</html>

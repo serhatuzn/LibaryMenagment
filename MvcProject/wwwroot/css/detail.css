@@ -1,0 +1,96 @@
+/* Genel ayarlar */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Konteyner ayarları */
+  .container {
+    width: 85%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+  }
+  
+  /* Başlık kısmı */
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .header .lead {
+    font-size: 18px;
+    color: #7f8c8d;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  
+  /* Yazar detayları */
+  .author-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .author-details .left {
+    width: 48%;
+    background-color: #ecf0f1;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .author-details h3 {
+    color: #34495e;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .author-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .author-details p strong {
+    color: #2980b9;
+  }
+  
+  /* Geri dönme butonu */
+  .back-btn {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .back-btn .btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-btn .btn:hover {
+    background-color: #2980b9;
+  }
+  

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.btn-custom {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #28a745; /* Hover ile butonun rengini değiştirir */
+  transform: scale(1.05); /* Hover ile butonu biraz büyütür */
+}
+
+footer-custom {
+  background-color: #333; /* Arka plan rengi */
+  color: #fff; /* Yazı rengi */
+  text-align: center; /* Yazıyı ortala */
+  padding: 15px 0; /* Üst ve alt boşluk */
+  font-size: 14px; /* Yazı boyutu */
+}
+
+.footer-custom a {
+  color: #fff; /* Bağlantılar için beyaz renk */
+  text-decoration: none; /* Alt çizgiyi kaldır */
+}
+
+.footer-custom a:hover {
+  text-decoration: underline; /* Üzerine gelindiğinde altı çizilsin */
+}

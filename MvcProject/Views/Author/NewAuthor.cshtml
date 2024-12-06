@@ -1,0 +1,39 @@
+@model NewAuthorViewModel 
+@{
+    ViewBag.title = "Yeni Öğrneci Ekle";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form method="post">
+  <div class="mb-3">
+    <label asp-for="FirstName" class="form-label"></label>
+    <input asp-for="FirstName" type="text" class="form-control">
+    <div class="form-text text-danger">
+      <span asp-validation-for="FirstName"></span>
+    </div>
+  </div>
+   <div class="mb-3">
+    <label asp-for="LastName" class="form-label"></label>
+    <input asp-for="LastName" type="text" class="form-control">
+    <div class="form-text text-danger">
+      <span asp-validation-for="LastName"></span>
+    </div>
+  </div>
+   <div class="mb-3">
+    <label asp-for="DateOfBirth" class="form-label"></label>
+    <input asp-for="DateOfBirth" type="text" class="form-control">
+    <div class="form-text text-danger">
+      <span asp-validation-for="DateOfBirth"></span>
+    </div>
+  </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Ekle</button>
+</form>
+</body>
+</html>
