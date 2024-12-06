@@ -1,4 +1,3 @@
-
 ## Kurulum ve Çalıştırma
 
 ### Gereksinimler
@@ -26,13 +25,3 @@ Testlerinizi çalıştırmak için şu adımları izleyebilirsiniz:
 Projeye katkıda bulunmak isterseniz şu yolları izleyebilirsiniz:
 - Bir **Issue** oluşturun.
 - Yeni özellikler veya düzeltmeler için **Pull Request** gönderin.
-
-## Lisans
-Bu proje **MIT Lisansı** altında lisanslanmıştır.
-
-## Ekran Görüntüleri
-(Projeye ait ekran görüntüleri veya örnek çıktılar burada paylaşılabilir.)
-
----
-
-Bu dokümantasyon, projenizi anlamak ve kullanmak isteyen herkes için rehber olacaktır. Eğer eklemek istediğiniz başka bir bölüm varsa bildirin, düzenleyebilirim! 😊
