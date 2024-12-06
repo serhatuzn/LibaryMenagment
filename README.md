@@ -1,3 +1,10 @@
+# Patika+ Week9 MVC Projesi :)
+
+## Proje Açıklaması
+**MvcEndProject**, ASP.NET MVC mimarisini kullanarak geliştirilmiş bir web uygulamasıdır. Bu proje, Model-View-Controller yapısının organize bir şekilde uygulanmasını sağlar ve kullanıcı dostu bir deneyim sunmayı hedefler.
+
+## Proje Yapısı
+MvcEndProject/ ├── MvcEndProject.sln # Çözüm (Solution) dosyası ├── MvcProject/ # Ana uygulama klasörü ├── appsettings.json # Yapılandırma dosyası ├── Controllers/ # İstekleri işleyen kontrolörler ├── Models/ # Veri modelleri ├── Views/ # Kullanıcı arayüzü için Razor görünümleri ├── wwwroot/ # Statik dosyalar (CSS, JS, görseller) ├── Program.cs # Uygulamanın giriş noktası ├── Properties/ # Proje ayarları ├── MvcProject.csproj # Proje yapılandırma dosyası ├── bin/ # Derlenmiş çıktı dosyaları ├── obj/ # Derleme artefaktları
 ## Kurulum ve Çalıştırma
 
 ### Gereksinimler
