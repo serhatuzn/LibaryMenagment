@@ -29,7 +29,7 @@
             <tr>
                 <td>@book.Title</td>
                 <td>@book.Genre</td>
-                <td>@book.AuthorName</td> <!-- AuthorId yerine AuthorName -->
+                <td>@book.AuthorName</td>
                 <td>@book.PublishDate.ToString("dd/MM/yyyy")</td>
                 <td>
                     <a href="@Url.Action("DetailsBook", "Book", new { id = book.BookId })" class="btn btn-info">Details</a>

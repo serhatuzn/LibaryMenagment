@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcProject
 build_property.RootNamespace = MvcProject
-build_property.ProjectDir = C:\Users\User\Desktop\MvcEndProject\MvcProject\
+build_property.ProjectDir = C:\Users\User\Desktop\MvcProjectEnd\MvcProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\MvcEndProject\MvcProject
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\MvcProjectEnd\MvcProject
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/About/Index.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Author/DeleteAuthor.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Author/DeleteAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERlbGV0ZUF1dGhvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Author/DetailsAuthor.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Author/DetailsAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERldGFpbHNBdXRob3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Author/EditAuthor.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Author/EditAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEVkaXRBdXRob3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Author/Index.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Author/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Author/NewAuthor.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Author/NewAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXE5ld0F1dGhvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Book/DeleteBook.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Book/DeleteBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGVCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Book/DetailsBook.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Book/DetailsBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzQm9vay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Book/EditBook.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Book/EditBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0Qm9vay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Book/Index.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Book/NewBook.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Book/NewBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xOZXdCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Home/Privacy.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Shared/Error.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Shared/_HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Shared/_Yerlesim.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9ZZXJsZXNpbS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/MvcEndProject/MvcProject/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/MvcProjectEnd/MvcProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8nvebhdgf7

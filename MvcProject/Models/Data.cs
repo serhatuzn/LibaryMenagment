@@ -7,6 +7,7 @@ namespace MvcProject.Models
 {
     public class Data
     {
+        // Burda Kitaplarımızı üretiyoruz
         public static List<Book> Books { get; set; } = new()
         {
             new Book() { BookId = 1, Title = "To Kill a Mockingbird", AuthorId = 1, Genre = "Fiction", PublishDate = new DateTime(1960, 7, 11), ISBN = "9780061120084", CopiesAvailable = 5 },
@@ -26,6 +27,7 @@ namespace MvcProject.Models
             new Book() { BookId = 15, Title = "Great Expectations", AuthorId = 15, Genre = "Fiction", PublishDate = new DateTime(1861, 1, 1), ISBN = "9780141439563", CopiesAvailable = 10 }
         };
 
+        // Burada da Yazarları üretiyoruz.
         public static List<Author> Authors { get; set; } = new()
         {
             new Author() { AuthorId = 1, FirstName = "Harper", LastName = "Lee", DateOfBirth = new DateTime(1926, 4, 28) },

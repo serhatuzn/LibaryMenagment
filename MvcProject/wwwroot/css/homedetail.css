@@ -1,0 +1,56 @@
+/* Basit Layout CSS */
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 225px;
+    background-color: #000000;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Yatayda ortalamak için */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 100px;
+}
+
+.sidebar ul li a {
+    font-size: 150%;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #805129;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:#ffffff;
+}

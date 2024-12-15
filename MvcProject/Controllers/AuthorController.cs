@@ -7,49 +7,49 @@ namespace MvcProject.Controllers
     {
         public ActionResult Index()
         {
-             List<Author> authors = Data.Authors.OrderBy(x => x.AuthorId).ToList();// Sort the book details in descending order by the number of available copies.
-            return View(authors);
+             List<Author> authors = Data.Authors.OrderBy(x => x.AuthorId).ToList(); // Yazarları Id'ye göre sıralıyoruz
+            return View(authors); // Yazarları View'a gönderiyoruz
         }
 
         [HttpGet]
-        public ActionResult NewAuthor()
+        public ActionResult NewAuthor() // Yeni Yazar Ekleme Sayfası
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult NewAuthor(NewAuthorViewModel author)
+        public ActionResult NewAuthor(NewAuthorViewModel author) // Yeni Yazar Ekleme Sayfası Post işlemi için
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) // Eğer Model geçerliyse
             {
-                Author newAuthor = new Author()
+                Author newAuthor = new Author() // Yeni bir yazar oluşturuyoruz
                 {
-                    AuthorId = Data.Authors.Max(b => b.AuthorId) + 1,
-                    FirstName = author.FirstName,
-                    LastName = author.LastName,
-                    DateOfBirth = author.DateOfBirth,
+                    AuthorId = Data.Authors.Max(b => b.AuthorId) + 1, // Yazar Id'sini en büyük Id'nin bir fazlası olarak belirliyoruz
+                    FirstName = author.FirstName, // Yazar Adı
+                    LastName = author.LastName, // Yazar Soyadı
+                    DateOfBirth = author.DateOfBirth, // Yazar Doğum Tarihi
                 };
-                Data.Authors.Add(newAuthor);
+                Data.Authors.Add(newAuthor); // Yazarı ekliyoruz
                 return RedirectToAction("Index"); // Ekledikten sonra bu controllerın Indexıne Git
             }
             return View(); // Geçerli Değilse
         }
 
         [HttpGet]
-        public ActionResult EditAuthor(int id)
+        public ActionResult EditAuthor(int id) // Yazar Düzenleme Sayfası
         {
-            Author? author = Data.Authors.FirstOrDefault(a => a.AuthorId == id);
-            if (author == null)
-                return NotFound();
+            Author? author = Data.Authors.FirstOrDefault(a => a.AuthorId == id); // Yazarı buluyoruz
+            if (author == null) // Eğer yazar bulunamazsa
+                return NotFound(); // 404 Hata kodu dönecek
 
-            AuthorEditViewModel vm = new AuthorEditViewModel()
+            AuthorEditViewModel vm = new AuthorEditViewModel() // Yazarı düzenlemek için ViewModel oluşturuyoruz
             {
-                Id = author.AuthorId,
-                FirstName = author.FirstName,
-                LastName = author.LastName,
-                DateOfBirth = author.DateOfBirth,
+                Id = author.AuthorId, // Yazar Id'si
+                FirstName = author.FirstName, // Yazar Adı
+                LastName = author.LastName, // Yazar Soyadı
+                DateOfBirth = author.DateOfBirth, // Yazar Doğum Tarihi
             };
-            return View(vm);
+            return View(vm); // Yazar mevcutsa, Model ile View'ı döndürüyoruz
         }
 
         [HttpPost]

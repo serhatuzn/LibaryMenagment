@@ -7,6 +7,7 @@ namespace MvcProject.Models
 {
     public class Author
     {
+        // Yazara ait Bilgiler
         public int AuthorId { get; set; }
         public string FirstName { get; set; } = "";
         public string LastName { get; set;} = "";

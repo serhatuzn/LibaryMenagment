@@ -7,6 +7,7 @@ namespace MvcProject.Models
 {
     public class BookViewModel
     {
+        // Burası da kitaplara ait viewmodel Kitaplar gözüktüğünde gözükecek bilgiler
         public int BookId { get; set; }
         public string Title { get; set; } = "";
         public string Genre { get; set; } = "";

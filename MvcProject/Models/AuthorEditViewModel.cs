@@ -10,9 +10,9 @@ namespace MvcProject.Models
     {
         public int Id { get; set; }
         
-        [Display(Name = "Yazar Adı")]
-        [Required(ErrorMessage = "Yazar Adı Alanı Zorunludur!")]
-        [MaxLength(30, ErrorMessage = "Yazar Adı 30 Karakteri Geçemez.")]
+        [Display(Name = "Yazar Adı")] // Display Name diyerek yazar kısmında Yazar adı diye editlencek
+        [Required(ErrorMessage = "Yazar Adı Alanı Zorunludur!")] // Eğer alan boş geçilirse bu uyarı mesajı geçer
+        [MaxLength(30, ErrorMessage = "Yazar Adı 30 Karakteri Geçemez.")] // Burda da yazıya karakter sınırı koyuyoruz
         public string FirstName { get; set; } = "";
 
         [Display(Name ="Yazar Soyadı")]

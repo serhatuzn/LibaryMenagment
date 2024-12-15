@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\MvcEndProject\\MvcProject\\MvcProject.csproj": {}
+    "C:\\Users\\User\\Desktop\\MvcProjectEnd\\MvcProject\\MvcProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\MvcEndProject\\MvcProject\\MvcProject.csproj": {
+    "C:\\Users\\User\\Desktop\\MvcProjectEnd\\MvcProject\\MvcProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\MvcEndProject\\MvcProject\\MvcProject.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\MvcProjectEnd\\MvcProject\\MvcProject.csproj",
         "projectName": "MvcProject",
-        "projectPath": "C:\\Users\\User\\Desktop\\MvcEndProject\\MvcProject\\MvcProject.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\MvcProjectEnd\\MvcProject\\MvcProject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\MvcEndProject\\MvcProject\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\MvcProjectEnd\\MvcProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

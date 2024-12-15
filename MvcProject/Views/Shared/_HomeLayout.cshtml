@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MvcProject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/homedetail.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MvcProject.style.css" asp-append-version="true" />
+</head>
+<body>
+    <aside class="sidebar">
+        <ul>
+            <li><a class="Home" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a class="Authors" asp-area="" asp-controller="Author" asp-action="Index">Yazarlar</a></li>
+            <li><a class="Books" asp-area="" asp-controller="Book" asp-action="Index">Kitaplar</a></li>
+            <li><a class="About" asp-area="" asp-controller="About" asp-action="Index">Hakkında</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+        <!-- Sayfa İçeriği -->
+        @RenderBody()
+    </main>
+
+    <footer>
+        Tüm hakları Patika.dev de saklıdır- &copy; @DateTime.Now.Year
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

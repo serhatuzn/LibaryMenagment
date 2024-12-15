@@ -1,0 +1,42 @@
+body {
+    background-image: url("/img/resim1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Sayfa kenar boşluklarını sıfırlıyoruz */
+    height: 100vh; /* Sayfa yüksekliğini tam ekran yap */
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center; /* Yatayda ortalar */
+    align-items: center; /* Dikeyde ortalar */
+    flex-direction: column; /* Butonları dikey olarak sıralar */
+    height: 100%; /* İçeriği sayfa yüksekliğine göre ayarlar */
+    margin-top: auto; /* Butonları alt kısma alır */
+    text-align: center; /* Butonları ortalamak için */
+  }
+  
+  .btn {
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    margin: 10px;
+    color: rgb(243, 243, 243);
+    background-color: rgba(20, 18, 18, 0.801); /* Buton arka planına şeffaflık ekleyebiliriz */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Hover efekti için geçiş efekti */
+  }
+  
+  .btn:hover {
+    background-color: rgba(128,81,41); /* Hover durumunda buton rengi */
+  }
+  
+  /* Responsive uyum için butonların boyutunu azaltma */
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 1.2rem;
+      padding: 15px 30px;
+    }
+  }
+  

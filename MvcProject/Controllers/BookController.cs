@@ -10,7 +10,8 @@ namespace MvcProject.Controllers
         // GET: BookController
         public ActionResult Index()
         {
-            var books = Data.Books.Select(b => new
+            // Kitapları alıp, yazar adını ekleyerek ViewModel oluşturuyoruz
+            var books = Data.Books.Select(b => new // Kitapları alıp, yazar adını ekleyerek ViewModel oluşturuyoruz
             {
                 b.BookId,
                 b.Title,
@@ -28,17 +29,17 @@ namespace MvcProject.Controllers
                 Genre = b.Genre,
                 PublishDate = b.PublishDate,
                 AuthorName = b.AuthorName
-            }).ToList();
+            }).ToList(); // ViewModel listesine dönüştürüyoruz
 
-            return View(bookViewModels);
+            return View(bookViewModels); // ViewModel listesini View'a gönderiyoruz
         }
 
 
         [HttpGet]
         public ActionResult NewBook()
         {
-            ViewBag.Author = Data.Authors
-                .Select(x => new SelectListItem
+            ViewBag.Author = Data.Authors // Yazarları ViewBag'e ekliyoruz
+                .Select(x => new SelectListItem // SelectListItem oluşturuyoruz çünkü DropDownList oluşturacağız DropDownList için SelectListItem kullanılır
                 {
                     Value = x.AuthorId.ToString(), // Yazarın Id'si
                     Text = $"{x.FullName}"         // Yazarın adı
@@ -50,11 +51,11 @@ namespace MvcProject.Controllers
 
 
         [HttpPost]
-        public ActionResult NewBook(NewBookViewModel book)
+        public ActionResult NewBook(NewBookViewModel book) // Yeni Kitap Ekleme Sayfası Post işlemi için
         {
             if (ModelState.IsValid)
             {
-                Book newBook = new Book()
+                Book newBook = new Book() // Yeni bir kitap oluşturuyoruz
                 {
                     BookId = Data.Books.Max(b => b.BookId) + 1,
                     Title = book.Title,
