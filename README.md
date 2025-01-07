@@ -1,34 +1,71 @@
-# Patika+ Week9 MVC Projesi :)
+# 📚 Library Management System
 
-## Proje Açıklaması
-**MvcEndProject**, ASP.NET MVC mimarisini kullanarak geliştirilmiş bir web uygulamasıdır. Bu proje, Model-View-Controller yapısının organize bir şekilde uygulanmasını sağlar ve kullanıcı dostu bir deneyim sunmayı hedefler.
+## 📝 Overview
+This project is a **Library Management System** designed to manage library operations such as managing books, users, and transactions efficiently. It includes various functionalities implemented in C#.
 
-## Proje Yapısı
-MvcEndProject/ ├── MvcEndProject.sln # Çözüm (Solution) dosyası ├── MvcProject/ # Ana uygulama klasörü ├── appsettings.json # Yapılandırma dosyası ├── Controllers/ # İstekleri işleyen kontrolörler ├── Models/ # Veri modelleri ├── Views/ # Kullanıcı arayüzü için Razor görünümleri ├── wwwroot/ # Statik dosyalar (CSS, JS, görseller) ├── Program.cs # Uygulamanın giriş noktası ├── Properties/ # Proje ayarları ├── MvcProject.csproj # Proje yapılandırma dosyası ├── bin/ # Derlenmiş çıktı dosyaları ├── obj/ # Derleme artefaktları
-## Kurulum ve Çalıştırma
+---
 
-### Gereksinimler
-- .NET SDK'nın makinenize kurulu olması.
-- Visual Studio veya uyumlu bir IDE.
+## 📂 Project Structure
 
-### Adımlar
-1. Bu projeyi bilgisayarınıza klonlayın veya kaynak kodu indirin.
-2. `MvcEndProject.sln` dosyasını Visual Studio ile açın.
-3. Gerekirse NuGet paketlerini geri yükleyin:
-   - **Tools > NuGet Package Manager > Manage NuGet Packages for Solution** yolunu izleyin ve eksik paketleri yükleyin.
-4. Projeyi çalıştırmak için `Ctrl + F5` tuşlarına basın.
+The following is an overview of the extracted project files:
 
-## Özellikler
-- **MVC Yapısı**: Model-View-Controller mimarisi düzenli bir şekilde uygulanmıştır.
-- **Yapılandırılabilirlik**: `appsettings.json` dosyası ile kolay yapılandırma.
-- **Statik Dosyalar**: `wwwroot` klasörü üzerinden CSS, JS ve görseller gibi dosyalar sunulabilir.
+### 📁 Folders
+- `bin`: Compiled binary files.
+- `obj`: Build object files.
+- `Properties`: Project configuration files.
+- `LibraryManagment`: Source code files for the Library Management System.
 
-## Testler
-Testlerinizi çalıştırmak için şu adımları izleyebilirsiniz:
-1. Visual Studio üzerinde **Test Explorer** penceresini açın.
-2. Testleri çalıştırmak için uygun butonu tıklayın.
+### 📄 Key Files
+- `App.config`: Configuration file for the application.
+- `LibraryManagment.csproj`: C# project file.
+- `Form1.cs`: Main form for the application.
+- `Form1.Designer.cs`: Designer file for the main form.
+- `Program.cs`: Entry point for the application.
+- `App.config`: Configuration file.
 
-## Katkıda Bulunma
-Projeye katkıda bulunmak isterseniz şu yolları izleyebilirsiniz:
-- Bir **Issue** oluşturun.
-- Yeni özellikler veya düzeltmeler için **Pull Request** gönderin.
+---
+
+## 🚀 Features
+
+- **Book Management**: Add, remove, and update book details.
+- **User Management**: Add and manage user information.
+- **Transaction Management**: Issue and return books.
+- **Search Functionality**: Search for books and users.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Language**: C#
+- **Framework**: .NET Framework
+- **IDE**: Visual Studio
+
+---
+
+## 🔧 How to Run
+
+1. Clone the repository or download the project files.
+2. Open the `LibraryManagment.csproj` file in Visual Studio.
+3. Build the project using `Ctrl+Shift+B`.
+4. Run the application using `F5` or the Debug option.
+
+---
+
+## 🌟 Contribution
+
+Feel free to fork the repository and submit pull requests. Contributions are always welcome! 💡
+
+---
+
+## 📞 Contact
+
+For any questions or suggestions, please reach out via GitHub or email.
+
+---
+
+### ⚠️ Note
+Make sure you have the .NET Framework installed before running the project.
+
+---
+
+Thank you for exploring the **Library Management System**! 😊
