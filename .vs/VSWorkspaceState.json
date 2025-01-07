@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\MvcProject",
-    "\\MvcProject\\Controllers",
-    "\\MvcProject\\wwwroot"
+    ""
   ],
-  "SelectedNode": "\\MvcProject\\Controllers\\AboutController.cs",
+  "SelectedNode": "\\LibaryMenagment",
   "PreviewInSolutionExplorer": false
 }
